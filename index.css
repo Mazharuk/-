@@ -1,0 +1,260 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+ol, ul {
+    list-style: none;
+}
+body {
+    font-family: 'Unbounded', cursive;
+}
+
+
+.header-container { 
+    display: flex;
+    width: 1920px;
+    padding-top: 54px;
+    padding-left: 133px;
+    padding-right: 133px;
+    padding-bottom: 168px;
+    background-color: beige
+}
+.header-title {
+    margin-bottom: 25px; 
+    font-size:12px;
+    line-height: 45px;
+    font-weight: 400;
+}
+.header-subtitle {
+    margin-bottom: 43px; 
+    font-size: 45px;
+    line-height: 35px;
+}
+.header-description {
+    margin-bottom: 61px;
+    font-size: 32px;
+    line-height: 51px;
+}
+.picker {
+    display: flex;
+}
+.pick {
+    display: block;
+    width: 280px;
+    height: 82px;
+    background-color: black;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 82px;
+    text-align: center;
+}
+.mmr {
+    width: 250px;
+    height: 82px;
+    text-decoration: none;
+    color: #272727;
+    background-color: #ffff;
+    font-size: 25px;
+    line-height: 82px;
+    text-align: center;
+}
+
+.header-img {
+    margin-top: 0;
+    display: block;
+    width: 600px; 
+}
+
+.main-container {
+    display: block;
+    width: 1920px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgb(195, 176, 145)
+}
+
+.name_main {
+    display: block;
+    width: 1920px;
+    text-align: center;
+}
+.namebrother {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.brothers2{ 
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.picker2 {
+    display: flex;
+}
+
+.pick2 {
+    display: block;
+    width: 280px;
+    height: 82px;
+    background-color: black;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 82px;
+    text-align: center;
+    margin-left: auto;
+}
+.mmr2 {
+    width: 250px;
+    height: 82px;
+    text-decoration: none;
+    color: #272727;
+    background-color: #ffff;
+    font-size: 25px;
+    line-height: 82px;
+    text-align: center;
+    margin-right: auto;
+}
+
+.main-description {
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 51px;
+    text-align: center;
+}
+
+.main-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px; 
+}
+
+.main-container2 {
+    display: block;
+    width: 1920px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: grey
+}
+
+.name_main2 {
+    display: block;
+    width: 1920px;
+    text-align: center;
+}
+
+.namebrother2 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.brothers3{ 
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.picker3 {
+    display: flex;
+}
+
+.pick3 {
+    display: block;
+    width: 280px;
+    height: 82px;
+    background-color: black;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 82px;
+    text-align: center;
+    margin-left: auto
+
+}
+
+.mmr3 {
+    width: 250px;
+    height: 82px;
+    text-decoration: none;
+    color: #272727;
+    background-color: #ffff;
+    font-size: 25px;
+    line-height: 82px;
+    text-align: center;
+    margin-right: auto;
+}
+
+.main-description2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 51px;
+    text-align: center;
+}
+
+.main-img2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px; 
+}
+.its-over {
+    display: block;
+    width: 1920px;
+    height: 540px;
+    background-color: #ffff
+}
+.last-title {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    height: 45px;
+}
+
+.last-description {
+    text-align: center;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 400;
+    height: 100px;
+}
+
+.use-faster {
+    display: block;
+    width: 280px;
+    height: 82px;
+    background-color: black;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 82px;
+    margin: auto;
+}
